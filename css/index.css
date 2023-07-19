@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.container {
+    margin: 0 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+input {
+    display: block;
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.btn:active {
+    transform: scale(0.99);
+}
+
+.btn {
+    background: white;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.add {
+    outline: 1px solid green;
+    margin-bottom: 10px;
+}
+
+.clear {
+    outline: 1px solid red;
+    width: 50vw;
+}
+
+.mainUsers,
+.users {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.users,
+.user {
+    width: 40vw;
+}
+
+.user {
+    background-color: #f5f1f1;
+    margin-bottom: 10px;
+}
+
+.user-outer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+}
+
+.delete,
+.change {
+    border: none;
+    height: 40%;
+    color: white;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.delete {
+    background: red;
+}
+
+.change {
+    background: green;
+}
+
+.delete:active,
+.change:active {
+    transform: scale(0.95);
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    background: ivory;
+}
